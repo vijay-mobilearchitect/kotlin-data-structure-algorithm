@@ -14,6 +14,52 @@ Questions
 
 fun main(){
 
-    println("Linked List")
+    var linkyList = LinkyList<String>()
+
+   // linkyList.addFirst("Vijay")
+
+    linkyList.addLast("Kotlin")
+    linkyList.addLast("Java")
+    linkyList.addLast("C#")
+    linkyList.addLast("C")
+    linkyList.addLast("C++")
+
+    linkyList.add(2,"RxJava")
+    linkyList.set(3,"RxBinding")
+
+
+    println("Linked List - First: " + linkyList.getFirst())
+    println("Linked List - Last: " + linkyList.getLast())
+    println("Linked List at 2 : " + linkyList.get(2))
+
+    println("Linked List at 3 : " + linkyList.get(3))
+
+    println("C++" in linkyList)
+    println("Kotlin" in linkyList)
+
+    println("Get First : " + linkyList.getFirst())
+
+    linkyList.removeFirst()
+
+    println("Get First after Removal: " + linkyList.getFirst())
+
+    println("Get Last : " + linkyList.getLast())
+
+    linkyList.removeLast()
+
+    println("Get Last after Removal: " + linkyList.getLast())
+
+    println("RxJava" in linkyList)
+
+    linkyList.remove(3)
+
+
+    println("RxBinding : "+ "RxBinding" in linkyList)
+
+    println("Is Hello word available? : " + linkyList.remove("Hello"))
+
+    println("Clear LinkedList : "+ linkyList.clear())
+
+
 
 }
