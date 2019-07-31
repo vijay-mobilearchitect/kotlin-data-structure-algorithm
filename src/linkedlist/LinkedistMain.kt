@@ -14,7 +14,7 @@ Questions
 
 fun main(){
 
-    var linkyList = LinkyList<String>()
+    var linkyList = SingleLinkedList<String>()
 
    // linkyList.addFirst("Vijay")
 

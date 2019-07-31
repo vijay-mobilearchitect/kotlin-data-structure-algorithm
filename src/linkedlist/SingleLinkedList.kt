@@ -1,6 +1,6 @@
 package linkedlist
 
-class LinkyList<E> {
+class SingleLinkedList<E> {
 
     private var size = 0
     private var head: Node<E>? = null

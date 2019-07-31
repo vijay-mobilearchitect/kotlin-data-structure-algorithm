@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6e2098-6c56-41e7-a001-9f93797745e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorting/BubbleSort.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkedistMainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkedistMainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkyList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkyList.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkyList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkyList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkyList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,17 +27,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+            <state>
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkyList.kt">
+        <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="201" column="5" lean-forward="true" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+            <state relative-caret-position="870">
+              <caret line="58" lean-forward="true" selection-start-line="16" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -41,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -63,6 +87,8 @@
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedistEx.kt" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkyList.kt" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" />
+        <option value="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt" />
+        <option value="$PROJECT_DIR$/src/sorting/BubbleSort.kt" />
       </list>
     </option>
   </component>
@@ -95,13 +121,7 @@
               <item name="data-structure-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structure-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structure-algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structure-algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="sorting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.linkedlist.LinkedistMainKt">
+  <component name="RunManager" selected="Kotlin.sorting.BubbleSortKt">
     <configuration name="arrays.ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structure-algorithm" />
       <option name="VM_PARAMETERS" />
@@ -153,8 +173,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sorting.BubbleSortKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="sorting.BubbleSortKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.sorting.BubbleSortKt" />
         <item itemvalue="Kotlin.linkedlist.LinkedistMainKt" />
         <item itemvalue="Kotlin.arrays.ArraysKt" />
       </list>
@@ -183,6 +217,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="14" y="23" width="1420" height="822" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -192,12 +227,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41095892" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34246576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27534246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -226,7 +261,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/LinkyList.kt</url>
+          <url>file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt</url>
           <line>179</line>
           <properties />
           <option name="timeStamp" value="28" />
@@ -238,10 +273,16 @@
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/linkedlist/LinkyList.kt</url>
+          <url>file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt</url>
           <line>211</line>
           <properties />
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/sorting/BubbleSort.kt</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -343,15 +384,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="60" column="53" lean-forward="true" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        <state>
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkyList.kt">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="201" column="5" lean-forward="true" selection-start-line="201" selection-start-column="5" selection-end-line="201" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" lean-forward="true" selection-start-line="16" selection-end-line="58" />
         </state>
       </provider>
     </entry>
