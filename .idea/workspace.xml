@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6e2098-6c56-41e7-a001-9f93797745e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting/BubbleSort.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrays/CamelCaseString.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkedistMainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkedistMainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkyList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure-algorithm/linkedlist/LinkyList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkyList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" lean-forward="true" selection-start-line="16" selection-end-line="58" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/arrays/CamelCaseString.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -89,6 +92,7 @@
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedistMain.kt" />
         <option value="$PROJECT_DIR$/src/linkedlist/SingleLinkedList.kt" />
         <option value="$PROJECT_DIR$/src/sorting/BubbleSort.kt" />
+        <option value="$PROJECT_DIR$/src/arrays/CamelCaseString.kt" />
       </list>
     </option>
   </component>
@@ -121,7 +125,7 @@
               <item name="data-structure-algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structure-algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.sorting.BubbleSortKt">
+  <component name="RunManager" selected="Kotlin.arrays.CamelCaseStringKt">
     <configuration name="arrays.ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="data-structure-algorithm" />
       <option name="VM_PARAMETERS" />
@@ -155,6 +159,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="arrays.ArraysKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="arrays.CamelCaseStringKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-algorithm" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="arrays.CamelCaseStringKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -188,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.arrays.CamelCaseStringKt" />
         <item itemvalue="Kotlin.sorting.BubbleSortKt" />
         <item itemvalue="Kotlin.linkedlist.LinkedistMainKt" />
         <item itemvalue="Kotlin.arrays.ArraysKt" />
@@ -232,8 +250,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34246576" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27534246" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34246576" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.27534246" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -284,53 +302,59 @@
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/arrays/CamelCaseString.kt</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>currentNode.next</expression-string>
+        <expression-string>s.toCharArray().filter{s -&gt; s.isUpperCase()}.size+1</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>currentNode.next!!</expression-string>
+        <expression-string>s.toCharArray().filter{s -&gt; s.isUpperCase()}</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>index in 1..(size - 1)</expression-string>
+        <expression-string>s.chars().filter{}</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList.add(2,&quot;RxJava&quot;))</expression-string>
+        <expression-string>s.split(s.toRegex()).toList()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList.add(0,&quot;RxJava&quot;)</expression-string>
+        <expression-string>s.split('C').toList()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList.add(2,&quot;RxJava&quot;)</expression-string>
+        <expression-string>s.split(&quot;(?=\\p{Lu})&quot;).toList()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList</expression-string>
+        <expression-string>s.split(&quot;(?=[A-Z])&quot;).toList()</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList.get(0)</expression-string>
+        <expression-string>s.split(&quot;(?=[A-Z])&quot;)</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>linkyList.get(1)</expression-string>
+        <expression-string>s.split(&quot;(?=[A-Z])&quot;).size</expression-string>
         <language-id>kotlin</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -405,8 +429,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sorting/BubbleSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" lean-forward="true" selection-start-line="16" selection-end-line="58" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/CamelCaseString.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
